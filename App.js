@@ -4,8 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>Welcome to GlowWise!</Text>
-      <Text style={styles.message}>Your app is ready to use.</Text>
+      <Text style={styles.welcome}>Welcome to the GlowWise App</Text>
     </View>
   );
 }
@@ -21,7 +20,7 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#2c3e50',
+    color: '#FFB6C1',
     marginBottom: 10,
   },
   message: {
